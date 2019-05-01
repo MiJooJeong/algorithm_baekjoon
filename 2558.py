@@ -1,0 +1,4 @@
+numbers = input()
+
+print(numbers)
+
