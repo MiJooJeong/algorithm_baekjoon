@@ -32,7 +32,7 @@ length = int(sys.stdin.readline().strip())
 test_case = []
 
 for i in range(0, length):
-    numbers = list(map(int, input().strip().split()))
+    numbers = list(map(int, sys.stdin.readline().strip().split()))
     test_case.append(numbers)
 
 for i, case in enumerate(test_case):
